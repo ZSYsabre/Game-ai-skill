@@ -1,0 +1,13 @@
+interface:
+  display_name: 游戏分析写作
+  short_description: 从玩法、叙事、开发与市场拆解游戏，写成有判断的游戏分析稿
+  default_prompt: 使用 $analyze-games 分析这款游戏，并写成一篇有游戏博主口吻的公众号文章。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
