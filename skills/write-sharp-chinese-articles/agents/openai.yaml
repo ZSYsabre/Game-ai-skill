@@ -1,0 +1,14 @@
+interface:
+  display_name: 锋利中文写作
+  short_description: 写出有争议、有材料、能传播且结尾深刻的中文观点文章
+  default_prompt: Use $write-sharp-chinese-articles to turn this topic into a sharp
+    Chinese article with a debatable thesis and a deep ending.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
